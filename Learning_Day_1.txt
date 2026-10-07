@@ -1,0 +1,6 @@
+Learned the basic concepts of java components:
+JVM
+JRE
+JDK
+
+Data types and variables in java
