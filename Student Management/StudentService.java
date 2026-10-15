@@ -8,7 +8,7 @@ public class StudentService {
         fileUtility = new FileUtility();
     }
 
-    
+    // Add new student
     public void addStudent(String id, String name) {
         List<String> students = fileUtility.readLines();
 
@@ -26,7 +26,7 @@ public class StudentService {
         System.out.println("Student added successfully");
     }
 
-    
+    // Displaying  Students details
     public void viewStudents() {
         List<String> students = fileUtility.readLines();
 
@@ -42,7 +42,7 @@ public class StudentService {
         }
     }
 
-    
+    // Update student based on id 
     public void updateStudent(String id, String newName) {
         List<String> students = fileUtility.readLines();
         boolean found = false;
@@ -65,6 +65,7 @@ public class StudentService {
         }
     }
 
+    // Deleting student details based on id 
     
     public void deleteStudent(String id) {
         List<String> students = fileUtility.readLines();
