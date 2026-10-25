@@ -66,7 +66,7 @@ public class StudentService {
     }
 
     // Deleting student details based on id 
-    
+
     public void deleteStudent(String id) {
         List<String> students = fileUtility.readLines();
         boolean removed = students.removeIf(student ->
