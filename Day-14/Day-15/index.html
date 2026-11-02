@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Header */
+       .header, .footer {
+    width: 100%;
+    height: 80px;
+    background-color: #788089;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 40px;
+    box-sizing: border-box;
+
+    /* 3 improvements */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid #ff9900;
+    color: white;
+}   
+
+        .s{
+            word-spacing: 20px;
+            text-decoration: none;
+        }
+
+        
+        .a{
+            box-sizing: 300px;
+            border-radius: 0px;
+            text-decoration: none;
+            color: #000;
+           
+        }
+        
+        
+        .container {
+            display: flex;
+            gap: 20px;
+            
+            text-align: center;
+            text-justify: auto;
+        }
+        .box {
+            width: 220px;
+            height: 350px;
+            background-color: white;
+            border-radius: 10px;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 0px 2px 5px gray;
+        }
+        .box img {
+            width: 100%;
+            height: 150px;
+            object-fit: contain;
+        }
+        .rating {
+            background-color: green;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 5px;
+            display: inline-block;
+            font-size: 12px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h1>Flipkart</h1>
+        </div>
+        <div class="s" >
+        <a href="" class="a">Home</a>
+        <a href="" class="a">About</a>
+        <a href="" class="a">Login</a>
+        </div>
+
+        
+        
+        
+
+    </div>
+    <br>
+    <div class="container">
+        <div class="box">
+            <img src="https://www.boat-lifestyle.com/cdn/shop/files/Artboard2_b4d30e02-00f0-4b78-82c0-07440c4cc5f0_1800x.png?v=1752731162"
+                 alt="Headphones">
+
+            <h3>Wireless Headphones</h3>
+
+            <p>
+                <span class="rating">4.5 ★</span>
+            </p>
+
+            <p class="price">
+                ₹1,499 -
+                <span class="old-price">₹2,999</span>
+            </p>
+
+            <button>Add to Cart</button>
+        </div>
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnK38HVMVvaLdnzbEAlochexIpFazekp-S8VVwc0SlIQ&s=10"
+                 alt="Shoes">
+
+            <h3>Running Shoes</h3>
+
+            <p>
+                <span class="rating">4.3 ★</span>
+            </p>
+
+            <p class="price">
+                ₹2,499 -
+                <span class="old-price">₹4,999</span>
+            </p>
+
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=400"
+                 alt="Camera">
+
+            <h3>Digital Camera</h3>
+
+            <p>
+                <span class="rating">4.6 ★</span>
+            </p>
+
+            <p class="price">
+                ₹5,999 -
+                <span class="old-price">₹8,999</span>
+            </p>
+
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=400"
+                 alt="Smart Watch">
+
+            <h3>Fitness Watch</h3>
+
+            <p>
+                <span class="rating">4.4 ★</span>
+            </p>
+
+            <p class="price">
+                ₹2,999 -
+                <span class="old-price">₹5,999</span>
+            </p>
+
+            <button>Add to Cart</button>
+        </div>
+
+
+    </div>
+    <br>
+    <div class="footer">
+        <a href="" class="a">contact</a>
+        <a href="" class="a">Email</a>
+        <a href="" class="a">Support</a>
+
+    
+    </div>
+   
+    
+    
+
+
+</body>
+</html>
