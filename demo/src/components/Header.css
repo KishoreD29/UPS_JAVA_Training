@@ -15,7 +15,22 @@
     border-bottom: 3px solid #ff9900;
     color: white;
 }  
-.s{
-    word-spacing: 20px;
-            text-decoration: none;
-        }
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: orange;
+}
